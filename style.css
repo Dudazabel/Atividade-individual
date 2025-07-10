@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-desktop li{
+    margin: 15px;
+    list-style: none;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+}
