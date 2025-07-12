@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+:root{
+    --font:'Space_Grotesk';
+}
+
+body{
+    font-family: var(--font);
+}
+
+@font-face {
+    font-family: 'Space_Grotesk';
+    src: url('fonte/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
 .menu-mobile{
     display: none;
 }
@@ -12,6 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 80px;
 }
 
 .menu-desktop{
@@ -20,12 +34,190 @@
 }
 
 .menu-desktop li{
-    margin: 15px;
+    margin: 30px;
     list-style: none;
-    
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.menu-desktop a{
+    text-decoration: none;
+    color: black;
 }
 
 .login{
+    display: flex;
+    flex-direction: row;
+}
+
+.login p{
+    font-size: 18px;
+    color: black;
+    margin: 30px;
+}
+
+.login button{
+    border-radius: 100px;
+    width: 80px;
+    margin: 20px;
+    background-color: #3778fa;
+    color: #fff;
+}
+
+.logo h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #3778fa;
+    margin: 26px;
+}
+
+.frase-principal{
+    margin: 50px;
+}
+
+.frase-principal h2{
+    display:flex;
+    justify-content: center;
+    font-size: 95px;
+    text-align: center;
+    
+}
+
+.frase-principal p{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.imagem-principal img{
+    width: 1250px;
+    height: 700px;
+}
+
+.imagem-principal {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.parte-video-frase h2{
+    display:flex;
+    justify-content: center;
+    font-size: 65px;
+    margin: 50px;
+    text-align: center;
+}
+
+.parte-video-imagem img{
+    width: 1250px;
+    height: 800px;
+    border-radius: 60px;
+}
+
+.parte-video-imagem{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.ultima-parte-frase h2{
+    display:flex;
+    justify-content: center;
+    font-size: 65px;
+    margin: 50px;
+    text-align: center;
+}
+
+.arrumar{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    background-color: #f3f3f3;
+    border-radius: 60px;
+    width: 1250px;
+    height: 610px;
+    justify-content: space-around;
+}
+
+.ultima-parte-imagem{
+    margin: 40px;
+}
+
+.ultima-parte-imagem img{
+    width: 350px;
+    height: 570px;
+}
+
+.motivo h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.motivo p{
+    margin-left:50px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.motivo{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 16px;
+}
+
+.arrumar2{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 16px;
+}
+
+.motivo- {
+    display: flex;
+    flex-direction: row;
+}
+
+.interior p{
+    font-size: 15px;
+    margin: 15px;
+}
+
+.motivo- h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.motivo- p{
+    margin-left:265px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+footer{
+    background-color: #3778fa;
+    margin-top: 150px;
+    color: #fff;
+}
+
+.frase-efeito h2{
+    font-size: 60px;
+    padding: 40px;
+}
+
+.inicial{
     display: flex;
     flex-direction: row;
 }
