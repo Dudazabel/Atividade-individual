@@ -8,6 +8,10 @@
     --font:'Space_Grotesk';
 }
 
+html{
+    font-size: 16px;
+}
+
 body{
     font-family: var(--font);
 }
@@ -25,7 +29,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 80px;
+    height: auto;
 }
 
 .menu-desktop{
@@ -36,7 +40,7 @@ body{
 .menu-desktop li{
     margin: 30px;
     list-style: none;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 400;
     color: black;
 }
@@ -52,21 +56,22 @@ body{
 }
 
 .login p{
-    font-size: 18px;
+    font-size: 1em;
     color: black;
     margin: 30px;
 }
 
 .login button{
     border-radius: 100px;
-    width: 80px;
+    width: 5vw;
     margin: 20px;
     background-color: #3778fa;
     color: #fff;
+    border: none;
 }
 
 .logo h1{
-    font-size: 25px;
+    font-size: 1.5em;
     font-weight: 500;
     color: #3778fa;
     margin: 26px;
@@ -79,7 +84,7 @@ body{
 .frase-principal h2{
     display:flex;
     justify-content: center;
-    font-size: 95px;
+    font-size: 6em;
     text-align: center;
     
 }
@@ -89,12 +94,12 @@ body{
     justify-content:center;
     margin-top: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 .imagem-principal img{
-    width: 1250px;
-    height: 700px;
+    width: 70%;
+    height: auto;
 }
 
 .imagem-principal {
@@ -106,15 +111,15 @@ body{
 .parte-video-frase h2{
     display:flex;
     justify-content: center;
-    font-size: 65px;
+    font-size: 4em;
     margin: 50px;
     text-align: center;
 }
 
 .parte-video-imagem img{
-    width: 1250px;
-    height: 800px;
-    border-radius: 60px;
+    width: 70%;
+    height: auto;
+    border-radius: 40px;
 }
 
 .parte-video-imagem{
@@ -136,30 +141,34 @@ body{
     flex-direction: row;
     justify-self: center;
     background-color: #f3f3f3;
-    border-radius: 60px;
-    width: 1250px;
-    height: 610px;
+    border-radius: 40px;
+    width: 70%;
+    height: auto;
     justify-content: space-around;
 }
 
 .ultima-parte-imagem{
     margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 .ultima-parte-imagem img{
-    width: 350px;
-    height: 570px;
+    width: 80%;
+    height:auto;
 }
 
 .motivo h3{
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 10px;
 }
 
 .motivo p{
     margin-left:50px;
     margin: 20px;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 400;
 }
 
@@ -170,7 +179,7 @@ body{
     align-items: baseline;
     justify-content: space-between;
     background-color: #fff;
-    width: 600px;
+    width: 90%;
     border-radius: 16px;
 }
 
@@ -181,7 +190,7 @@ body{
     margin-bottom: 10px;
     justify-content: space-between;
     background-color: #fff;
-    width: 600px;
+    width: 90%;
     border-radius: 16px;
 }
 
@@ -191,18 +200,18 @@ body{
 }
 
 .interior p{
-    font-size: 15px;
-    margin: 15px;
+    font-size: 1em;
+    margin: 20px;
 }
 
 .motivo- h3{
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 10px;
 }
 
 .motivo- p{
-    margin-left:265px;
-    font-size: 30px;
+    margin-left: 250px;
+    font-size: 2em;
     font-weight: 100;
 }
 
@@ -210,14 +219,124 @@ footer{
     background-color: #3778fa;
     margin-top: 150px;
     color: #fff;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
 }
 
 .frase-efeito h2{
-    font-size: 60px;
-    padding: 40px;
+    font-size: 6.25em;
+    font-weight: 600;
 }
 
 .inicial{
     display: flex;
     flex-direction: row;
+    padding-top: 80px;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.frase{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.frase button{
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 18px;
+    border: none;
+    font-weight: 500;
+}
+
+.frase p{
+    padding-bottom: 25px;
+}
+
+.foot h3{
+    font-size: 25px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.foot nav ul li{
+    margin-bottom: 27px;
+    list-style: none;
+
+}
+
+.foot h3{
+    margin-bottom: 17px;
+}
+
+.detalhe{
+  height: 1px;
+  background-color: #fff;
+  width: 70%;
+  margin: 90px 30px;
+  justify-self:  center;
+}
+
+.ultimo-footer{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.escrita{
+    padding: 50px 0;
+}
+
+.escrita-{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.escrita- li a{
+    text-decoration: none;
+    color: #A0DA7A;
+    margin-left: 10px;
+}
+
+.escrita- li{
+    list-style: none;
+}
+
+@media(max-width:480px){
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+        justify-content: flex-end;
+       
+    }
+
+    .menu-mobile button{
+        background-color: #fff;
+        font-weight: 1em;
+        border: none;
+        margin: 26px;
+    }
+
+    .login{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
 }
