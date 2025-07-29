@@ -40,7 +40,7 @@ body{
 .menu-desktop li{
     margin: 30px;
     list-style: none;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     color: black;
 }
@@ -71,7 +71,7 @@ body{
 }
 
 .logo h1{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #3778fa;
     margin: 26px;
@@ -84,9 +84,8 @@ body{
 .frase-principal h2{
     display:flex;
     justify-content: center;
-    font-size: 6em;
+    font-size: 6rem;
     text-align: center;
-    
 }
 
 .frase-principal p{
@@ -94,7 +93,7 @@ body{
     justify-content:center;
     margin-top: 30px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .imagem-principal img{
@@ -111,7 +110,7 @@ body{
 .parte-video-frase h2{
     display:flex;
     justify-content: center;
-    font-size: 4em;
+    font-size: 5rem;
     margin: 50px;
     text-align: center;
 }
@@ -131,7 +130,7 @@ body{
 .ultima-parte-frase h2{
     display:flex;
     justify-content: center;
-    font-size: 65px;
+    font-size: 5rem;
     margin: 50px;
     text-align: center;
 }
@@ -161,14 +160,13 @@ body{
 }
 
 .motivo h3{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     margin: 10px;
 }
 
 .motivo p{
-    margin-left:50px;
     margin: 20px;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 400;
 }
 
@@ -187,8 +185,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 40px;
-    margin-bottom: 10px;
-    justify-content: space-between;
     background-color: #fff;
     width: 90%;
     border-radius: 16px;
@@ -197,22 +193,25 @@ body{
 .motivo- {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .interior p{
-    font-size: 1em;
+    font-size: 1rem;
     margin: 20px;
+    margin-top: 0px;
 }
 
 .motivo- h3{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     margin: 10px;
 }
 
 .motivo- p{
-    margin-left: 250px;
-    font-size: 2em;
+    margin: 20px;
+    font-size: 2rem;
     font-weight: 100;
+    margin-top: 10px;
 }
 
 footer{
@@ -224,7 +223,7 @@ footer{
 }
 
 .frase-efeito h2{
-    font-size: 6.25em;
+    font-size: 5.25rem;
     font-weight: 600;
 }
 
@@ -238,12 +237,12 @@ footer{
 }
 
 .frase{
-    font-size: 20px;
+    font-size: 1.1rem;
     padding-top: 50px;
 }
 
 .frase button{
-    font-size: 20px;
+    font-size: 1.1rem;
     border-radius: 100px;
     padding: 18px;
     border: none;
@@ -255,7 +254,7 @@ footer{
 }
 
 .foot h3{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
     color:#fff;
 }
@@ -297,6 +296,14 @@ footer{
     padding: 50px 0;
 }
 
+.escrita p{
+    font-size: 0.8rem;
+}
+
+.escrita- p{
+    font-size: 0.8rem;
+}
+
 .escrita-{
     padding: 50px 0;
     display: flex;
@@ -306,7 +313,8 @@ footer{
 .escrita- li a{
     text-decoration: none;
     color: #A0DA7A;
-    margin-left: 10px;
+    margin-left: 7px;
+    font-size: 0.8rem;
 }
 
 .escrita- li{
@@ -314,6 +322,10 @@ footer{
 }
 
 @media(max-width:480px){
+
+    html{
+        font-size: 8px;
+    }
     .menu-desktop{
         display: none;
     }
@@ -321,12 +333,11 @@ footer{
     .menu-mobile{
         display: block;
         justify-content: flex-end;
-       
     }
 
     .menu-mobile button{
         background-color: #fff;
-        font-weight: 1em;
+        font-weight: 1rem;
         border: none;
         margin: 26px;
     }
@@ -338,5 +349,56 @@ footer{
     .header{
         display: flex;
         justify-content: space-between;
+    }
+
+    .frase-principal{
+        display: none;
+    }
+
+    .frase-principal2 h2{
+        display:flex;
+        justify-content: center;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .frase-principal2 p{
+        display: flex;
+        justify-content:center;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .frase-principal2{
+        margin: 50px;
+    }
+
+    .imagem-principal img{
+        width: 98%;
+        margin-bottom: 60px;
+    }
+
+    .parte-video-frase h2{
+        font-size: 3.5rem;
+    }
+
+    .parte-video-imagem img{
+        width: 98%;
+        margin-bottom: 60px;
+    }
+
+    .ultima-parte-frase h2{
+        font-size: 3.5rem;
+    }
+
+    .arrumar{
+        width: 87%;
+        margin: 40px;
+    }
+
+    .ultima-parte-imagem{
+        width: 90%;
+        height: auto;
     }
 }
